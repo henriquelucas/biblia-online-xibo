@@ -1,0 +1,8 @@
+{
+  "name": "Tarefa Biblia",
+  "class": "\\Xibo\\Custom\\tarefabiblia",
+  "options": {
+    "interval": 5,
+    "intervalType": "minute"
+  }
+}
