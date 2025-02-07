@@ -1,0 +1,18 @@
+<module>
+    <id>xibosignage-biblia</id>
+    <name>Biblia Online</name>
+    <author>Henrique Lucas</author>
+    <description>Exiba versiuclos biblicos em suas telas</description>
+    <class>\Xibo\Custom\provedorbiblia</class>
+    <type>biblia</type>
+    <dataType>biblia</dataType>
+    <schemaVersion>1</schemaVersion>
+    <assignable>1</assignable>
+    <regionSpecific>1</regionSpecific>
+    <renderAs>html</renderAs>
+    <defaultDuration></defaultDuration>
+    <settings></settings>
+    <properties>
+    </properties>
+    <preview></preview>
+</module>

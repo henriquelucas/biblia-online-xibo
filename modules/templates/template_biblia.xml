@@ -1,0 +1,29 @@
+<!--
+  ~ Copyright (C) 2023 Xibo Signage Ltd
+  ~ Criado Por Henrique Lucas de Sousa
+  -->
+
+<templates>
+    <template>
+        <id>biblia_texto</id>
+        <extends override="text" with="data.texto" escapeHtml="false">text</extends>
+        <title>Versiculo</title>
+        <type>element</type>
+        <dataType>biblia</dataType>
+        <icon>fas fa-font</icon>
+        <canRotate>true</canRotate>
+        <startWidth>800</startWidth>
+        <startHeight>100</startHeight>
+    </template>
+     <template>
+        <id>biblia_livro</id>
+        <extends override="text" with="data.livro" escapeHtml="false">text</extends>
+        <title>Livro</title>
+        <type>element</type>
+        <dataType>biblia</dataType>
+        <icon>fas fa-font</icon>
+        <canRotate>true</canRotate>
+        <startWidth>800</startWidth>
+        <startHeight>100</startHeight>
+    </template>
+</templates>
