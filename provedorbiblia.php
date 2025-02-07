@@ -48,7 +48,7 @@ class provedorbiblia implements WidgetProviderInterface
 
             // Adicionando os dados ao provider
             $dataProvider->addItem([
-                'texto' => $texto . " - " . $capituloNumero . ":" . $versiculoNumero,
+                'texto' => $texto . "</br> ". $livroNome . " " . $capituloNumero . ":" . $versiculoNumero,
                 'livro' => $livroNome,
                 'date' => Carbon::now(),
                 'createdAt' => Carbon::now(),

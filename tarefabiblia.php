@@ -6,13 +6,13 @@ use Xibo\Factory\ContainerFactory;
 use Xibo\Widget\Provider\DataProviderInterface;
 use Xibo\Widget\Provider\WidgetProviderInterface;
 
-class tarefasnotacidada implements \Xibo\XMR\TaskInterface
+class tarefabiblia implements \Xibo\XMR\TaskInterface
 {
     public function run()
     {
         // Obtenha uma instância do seu provedor de dados
         $dataProvider = ContainerFactory::create()->get(DataProviderInterface::class);
-        $widgetProvider = new provedordedadosnotacidada();
+        $widgetProvider = new provedorbiblia();
 
         // Execute o método fetchData do seu provedor de dados
         $widgetProvider->fetchData($dataProvider);
